@@ -30,6 +30,9 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     height: 100%;
     z-index: 0;
 }
+.home #title, .home #title h1, .home #title span {
+color: #fff;
+}
 .home #title {
     position: relative;
     display: inline-block;
