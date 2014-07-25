@@ -22,12 +22,13 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     width: 100%;
 }
 .home .overlay {
-    background: left top url("/assets/images/common/patternMeshBk.png");
+    background: left top url("./images/common/patternMeshBk.png");
     display: block;
     position: fixed;
     top: 0;
     height: 100%;
-    z-index: 0;
+    width: 370px;
+    z-index: 9999;
 }
 .home #title, .home #title h1, .home #title span {
 color: #fff;
@@ -35,7 +36,6 @@ color: #fff;
 .home #title {
     position: relative;
     display: inline-block;
-    left: 15%;
     text-align: right;
 }
 .home #title h1 {
@@ -49,8 +49,7 @@ color: #fff;
     text-shadow: 0 3px 5px rgba(0,0,0,0.2);
 }
 .home .summaryBase {
-    position: absolute;
-    bottom: 34px;
+    position: relative;
     width: 40%;
     min-width: 500px;
 }
@@ -73,3 +72,39 @@ color: #fff;
     padding: 0 0 0 90px;
     min-height: 80px;
 }
+.codrops-header {
+	left: 35%;
+	text-align: right;
+}
+.boxgallery > nav span {
+	z-index: 10000;
+}
+.section {
+	z-index: 999999;
+position: relative;
+}
+.section h2 {
+	text-align: left;
+}
+.section .sec_container {
+	padding-left: 10px;
+}
+.section .sec_container h2 i.fa {
+	display: inline-block;
+}
+.section .sec_container h2 span {
+	display: inline-block;
+	width: 250px;
+	margin-left: 10px;
+	vertical-align: bottom;
+}
+.section.services {
+	margin-top: 435px;
+}
+.section:after {
+	content: "";
+	width: 60%;
+	height: 2px;
+	margin: 0 auto;
+}
+.thumbnail h3 {margin: 0px;font-size: 23px;}
