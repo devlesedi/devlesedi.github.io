@@ -1,0 +1,234 @@
+@import url("//fonts.googleapis.com/css?family=Roboto+Slab:300,400,700");
+body {
+	background: #333;
+}
+span.s-blue {
+	color:#2ba6cb;font-weight:900;
+}
+span.s-red {
+	color:#ec4646;font-weight:900;
+}
+.input-success {border-color: #3fad46; border-width: 3px; color: #333;}
+.input-danger {border-color: #d9534f;border-width: 3px;color: #333;}
+.validator {color: #d9534f;float: right;}
+.big-title {
+	text-align: center;
+	text-transform: uppercase;
+}
+.big-title {background: #fff;}
+.big-title img {max-width: 100%;}
+.logo {
+	float: left;
+	width: 210px;
+	height: 60px;
+	margin: 10px 0 0 0;
+}
+.blog-image {
+	position: absolute;
+	width: 49px;
+	height: 59px;
+}
+.blog-title {
+	margin: 0px 0px 0px 50px;
+	font-size: 180%;
+	color: #2ba6cb;
+}
+.tel-a {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	text-decoration: none;
+	color: #ec4646;
+}
+.tel-area {
+	margin: 20px 0 0 0;
+}
+#menu {
+	float: right;
+}
+.section {padding: 40px 0px;}
+.section.list-misc, .section.contact-form {background: #fff;color: #000;}
+.sec_blue {
+	background: #2ba6cb;
+	margin-top: 30px;
+}
+.box-info .img-box {
+	text-align: center;
+	margin-top: 20px;
+}
+.box-info-text p {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	color: #FFF;
+	font-size: 30px;
+	text-align: center;
+}
+.box-info-text span {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #d9f5fd;
+	font-size: 16px;
+	text-align: center;
+	display: block;
+	margin-top: 10px;
+}
+h1.proj, h1.cont {
+	color: #fff;
+	font-size: 16px;
+}
+.list_carousel {
+	float: left;
+	margin: 15px 0 0 15px;
+}
+
+.list_carousel ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+.list_carousel li {
+	font-size: 40px;
+	color: #999;
+	text-align: center;
+	padding: 0;
+	margin: 6px;
+	display: block;
+	float: left;
+	margin: 0 15px;
+	width: 162px;
+	overflow: hidden;
+}
+.list_carousel li a {
+	display: block;
+	text-align: center;
+	color: #ec4646;
+	text-decoration: none;
+	margin-top: 7px;
+}
+.list_carousel_wrapper a {
+	font-size: 15px;
+}
+.list_carousel img {
+	box-shadow: 1px 2px 6px rgba(0,0,0,0.6);
+}
+
+/* list-misc section */
+.list-misc ul li a {
+	color: #000;
+	background-color: #eee;
+	width: 226px;
+	margin: 0 10px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+.content_wrapper > div {display: none;}
+
+.button-order-now {
+width: 260px;
+height: 74px;
+float: left;
+margin: auto;
+margin-top: 10px;
+text-align: center;
+background: rgb(236,70,70);
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, rgba(236,70,70,1) 0%, rgba(206,48,48,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(236,70,70,1)), color-stop(100%,rgba(206,48,48,1)));
+background: -webkit-linear-gradient(top, rgba(236,70,70,1) 0%,rgba(206,48,48,1) 100%);
+background: -o-linear-gradient(top, rgba(236,70,70,1) 0%,rgba(206,48,48,1) 100%);
+background: -ms-linear-gradient(top, rgba(236,70,70,1) 0%,rgba(206,48,48,1) 100%);
+background: linear-gradient(to bottom, rgba(236,70,70,1) 0%,rgba(206,48,48,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec4646', endColorstr='#ce3030',GradientType=0 );
+border: 1px solid #BF2626;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+-webkit-box-shadow: 0px 0px 5px rgba(255, 0, 0, 0.4);
+-moz-box-shadow: 0px 0px 5px rgba(255, 0, 0, 0.4);
+box-shadow: 0px 0px 5px rgba(255, 0, 0, 0.4);
+color: #FFF;
+font-family: 'Oswald', sans-serif;
+font-weight: 400;
+font-size: 30px;
+text-shadow: 1px 1px #54514a;
+text-decoration: none;
+cursor: pointer;
+padding-top: 0px;
+}
+.button-order-now:hover {
+background: rgb(206,48,48);
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, rgba(206,48,48,1) 0%, rgba(236,70,70,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(206,48,48,1)), color-stop(100%,rgba(236,70,70,1)));
+background: -webkit-linear-gradient(top, rgba(206,48,48,1) 0%,rgba(236,70,70,1) 100%);
+background: -o-linear-gradient(top, rgba(206,48,48,1) 0%,rgba(236,70,70,1) 100%);
+background: -ms-linear-gradient(top, rgba(206,48,48,1) 0%,rgba(236,70,70,1) 100%);
+background: linear-gradient(to bottom, rgba(206,48,48,1) 0%,rgba(236,70,70,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce3030', endColorstr='#ec4646',GradientType=0 );
+}
+.button-order-now span {
+display: block;
+color: #FFFFFF;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+line-height: 18px;
+text-shadow: none;
+}
+.upload-file {
+	position: relative;
+}
+/*PAP*/
+#papmachine {position: relative;}
+#papmachine .spook {
+	width: 240px;
+	border: 1px solid rgba(255, 255, 255, 0.15);
+	background-color: rgba(0, 0, 0, 0.65);
+	padding: 1.2em 0 1.8em;
+	-webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding-box;
+	background-clip: padding-box;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	position: relative;
+}
+.prompt .step {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: transparent;
+	border: none;
+	color: white;
+}
+.prompt .step .badge {
+	background-color: #d92400;
+	font-size: 120%;
+}
+.prompt h3 {
+	font-family: "Roboto Slab", sans-serif;
+	font-weight: 300;
+	color: #fff;
+}
+.title-scene h2 {
+	font-family: "Roboto Slab", sans-serif;
+}
+/*Misc*/
+.faq dt {
+	cursor: pointer;
+	margin-top: 10px;
+}
+.faq dd {
+	background: #eee;
+	padding: 10px;
+}
