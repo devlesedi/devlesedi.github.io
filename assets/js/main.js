@@ -25,19 +25,34 @@ function onCommFormSubmit(evt) {
 	data.name = $('input[name="name"]').val();
 	data.email = $('input[name="email"]').val();
 	data.comment = $('textarea[name="comment"]').val();
+	if ($('input[name="phone"]').val()) {
+		data.phone = $('textarea[name="phone"]').val();
+	};
 
-	var mail = new PSDMailObject();
-	mail.save(data, {
-		success:function(res) {
-			console.log("Success" + res);
-
-			//Alerts are lame - but quick and easy
-			alert("Thanks for filling the form!");
-		},
-		error:function(e) {
-			console.dir(e);
-		}
+	var error = false;
+	$('.required').each(function() {
+		if ($(this).hasClass('input-danger') || $(this).val() === '') {
+			error = true;
+		};
 	});
+
+	if (!error) {
+
+		var mail = new PSDMailObject();
+		mail.save(data, {
+			success:function(res) {
+				console.log("Success" + res);
+
+				//Alerts are lame - but quick and easy
+				alert("Thanks for filling the form!");
+			},
+			error:function(e) {
+				console.dir(e);
+			}
+		});
+	} else {
+		alert('Please complete all required fields.')
+	}
 
 };
 
@@ -56,7 +71,7 @@ $(document).ready(function() {
 	Validator.prototype.checkName = function(name)
 	{
 	    "use strict";
-	    return (/[^a-z]/i.test(name) === false);
+	    return (/[^ a-zA-Z0-9._%+-@]/i.test(name) === false);
 	};
 	$('.required').each(function() {
 		$(this).on('blur', function() {
